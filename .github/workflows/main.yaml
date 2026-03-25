@@ -9,3 +9,9 @@ jobs:
     steps:
       - name:  "itd steps 2"
         uses: vamsins/githubactionsss/.github/actions/greet@main
+
+  greeting-job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name:  "itd steps 3"
+        uses: vamsins/githubactionsss/.github/actions/greet@main
