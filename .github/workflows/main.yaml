@@ -15,3 +15,5 @@ jobs:
     steps:
       - name:  "itd steps 3"
         uses: vamsins/githubactionsss/.github/actions/greet@main
+        with:
+          username: "vamsi"
