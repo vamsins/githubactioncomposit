@@ -1,0 +1,11 @@
+name: using composite
+on: 
+  push:
+    branches:
+      - "**"
+jobs:
+  greeting-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name:  "itd steps 2"
+        uses: vamsins/githubactionsss/tree/main/.github/actions/greet@main
