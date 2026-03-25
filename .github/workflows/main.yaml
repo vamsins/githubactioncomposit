@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name:  "itd steps 2"
-        uses: vamsins/.github/actions/greet@main
+        uses: vamsins/githubactionsss/.github/actions/greet@main
